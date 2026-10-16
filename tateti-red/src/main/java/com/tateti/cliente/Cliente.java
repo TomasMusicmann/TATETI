@@ -12,28 +12,5 @@ public class Cliente {
 
     public static void main(String[] args) {
         new VentanaJuego();
-
-       /* try {
-
-            Socket socket = new Socket(HOST, PUERTO);
-
-            System.out.println("Conectado al servidor");
-
-            PrintWriter salida = new PrintWriter(socket.getOutputStream(), true);
-
-            Scanner scanner = new Scanner(System.in);
-
-            while (true) {
-
-                String mensaje = scanner.nextLine();
-
-                salida.println(mensaje);
-            }
-
-        } catch (IOException e) {
-
-            System.out.println("Error en cliente");
-            e.printStackTrace();
-        }*/
     }
 }

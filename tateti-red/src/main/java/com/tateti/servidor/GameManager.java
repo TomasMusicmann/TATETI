@@ -73,7 +73,6 @@ public class GameManager {
         }
     }
 
-    // ===== ENVIAR A TODOS =====
     private void enviarATodos(String mensaje) {
 
         if (jugador1 != null) {
@@ -87,7 +86,6 @@ public class GameManager {
         }
     }
 
-    // ===== CAMBIAR TURNO =====
     private void cambiarTurno() {
 
         if (turnoActual == 'X') {
